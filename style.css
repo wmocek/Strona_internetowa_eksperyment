@@ -1,0 +1,61 @@
+header img {
+    height: 160px;
+    margin-left: 40px;
+}
+body {
+    height: 125vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 160px;
+    padding: 30px;
+    background-attachment: fixed;
+
+}
+
+main {
+    color: black;
+    mix-blend-mode: darken;
+}
+
+header {
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/nav.jpg');
+    background-size:cover;
+    z-index: 100;
+
+
+}
+
+header * {
+    display: inline;
+
+}
+
+header li {
+    margin: 40px;
+}
+
+a{
+  text-decoration: none;
+
+  /*below I changed the color*/
+  color: black;
+  /*I added some padding*/
+  padding: 2vw;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+  font-size: 12pt;
+}
+
+a:hover{
+  background-color: #C6E9FF;
+}
+
