@@ -2,9 +2,10 @@ header img {
     height: 160px;
     margin-left: 40px;
 }
+
 body {
     height: 125vh;
-    background-image: url('images/background.jpg');
+    background-image: url('images/background2.jpg');
     background-size: cover;
     font-family: sans-serif;
     margin-top: 160px;
@@ -28,7 +29,7 @@ header {
     display: flex;
     align-items: center;
     background-image: url('images/nav.jpg');
-    background-size:cover;
+    background-size: cover;
     z-index: 100;
 
 
@@ -43,19 +44,110 @@ header li {
     margin: 40px;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 
-  /*below I changed the color*/
-  color: black;
-  /*I added some padding*/
-  padding: 2vw;
-  /*also changed the font family but that's totally irrelevant*/
-  font-family: monospace;
-  font-size: 12pt;
+    /*below I changed the color*/
+    color: black;
+    /*I added some padding*/
+    padding: 2vw;
+    /*also changed the font family but that's totally irrelevant*/
+    font-family: monospace;
+    font-size: 12pt;
 }
 
-a:hover{
-  background-color: #C6E9FF;
+a:hover {
+    background-color: #C6E9FF;
 }
 
+#first_header {
+
+    text-align: right;
+    margin-left: 500px;
+
+}
+
+#second_header {
+
+    text-align: right;
+    margin-left: 500px;
+    font-size: 14pt;
+
+}
+
+
+
+#click {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 320px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+#click {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#click:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#click:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+#click:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+
+.one-third {
+    float: left;
+    margin-left: 2.564102564102564%;
+}
+
+.one-third {
+    width: 31.623931623931625%;
+}
+
+
+.one-third {
+    margin: 0;
+    width: 100%;
+}
+
+.one-third {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.one-third {
+    margin-bottom: 20px;
+}
+
+.wrap
+{
+display: table;
+}
